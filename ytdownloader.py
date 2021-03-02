@@ -14,23 +14,23 @@ if platform == 'win32':
 # Finish Arabic
 def finishar():
 	print(' ')
-	print('تم التحميل بنجاح.')
+	print('تم التحميل بنجاح.\nالفيديو او الاغنيه تم حفظه في ملف.')
 	
 # Finish Engilsh	
 def finishen():
 	print(' ')
-	print('Downlaod is done.')	
+	print('Downlaod is done.\nVideo or Audio saved in File')	
 
 # Finish Dutch
 def finishnl():
 	print(' ')
-	print('Het downloaden is voltooid.')	
+	print('Het downloaden is voltooid.\nVideo of Audio is opgeslagen in bestand')	
 	
 # Return Arabic	
 def returnqar():
 	print('\n')
 	print('\n')
-	back = input('تريد الرجوع: (اي) او (لا)\n\n==> ')
+	back = input('(تريد الرجوع: (اي) او (لا)\n\n==> ')
 	print('\n')
 	if back == 'اي':
 		startar()
