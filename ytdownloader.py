@@ -59,7 +59,6 @@ def returnqnl():
 # My Logo			
 def logo():
 	system(clear)
-	colorama.init()
 	print('''
 	
 -----------------------------------------	
