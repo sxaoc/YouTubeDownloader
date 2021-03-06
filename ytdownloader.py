@@ -1,9 +1,6 @@
 # Moduls مكتبات
 import time
 from pytube import YouTube
-import colorama
-from colorama import init
-from colorama import Fore, Back, Style
 from sys import platform, argv
 from os import system
 clear = 'clear'
